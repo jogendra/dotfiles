@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script to open pull request directly into your default browser.
+# It is very useful when diff between default branch on GitHub
+# and development purpose branch is too high.
+
 function _zpr() {
     current_branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
     parent_branch_with_remote=$(git rev-parse --abbrev-ref --symbolic-full-name @{u})
