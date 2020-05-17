@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = jogendrafx
+	email = jogendra.kumar@zomato.com
+
+[mergetool]
+	keepBackup = false
+
+[alias]
+	parent = rev-parse --abbrev-ref --symbolic-full-name @{u}
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	pr = !sh ~/dotfiles/bin/pull_request.sh
+
+[commit]
+	gpgsign = false
