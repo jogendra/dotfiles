@@ -115,6 +115,8 @@ source $ZSH/oh-my-zsh.sh
  
  alias zpr='_zpr'
 
+ alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
+
 function _zpr() {
     current_branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
     parent_branch_with_remote=$(git rev-parse --abbrev-ref --symbolic-full-name @{u})
