@@ -10,7 +10,7 @@
 	parent = rev-parse --abbrev-ref --symbolic-full-name @{u}
 	last = log -1 HEAD
 	unstage = reset HEAD --
-	pr = !sh ~/dotfiles/bin/pull_request.sh
+	pr = !sh ~/dotfiles/git/pull_request.sh
 	remotes = remote -v
 
 [commit]
