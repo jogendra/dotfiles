@@ -4,6 +4,9 @@
 #
 # A quick little indicator for battery status on your Mac laptop, suitable for
 # display in your prompt.
+# 
+# Most of this script is adapted from this:
+# https://github.com/holman/dotfiles/blob/master/bin/battery-status
 
 function battery_status() {
     if test ! "$(uname)" = "Darwin"
