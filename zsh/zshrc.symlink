@@ -99,37 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
- alias updf='function _upd() { git checkout $1; git fetch upstream; git reset --hard upstream/$1; git push -f origin $1 }; _upd'
-
- alias gpl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges --date=iso"
-
- alias hs="history | grep"
- 
- alias zpr='_zpr'
-
- alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
-
-function _zpr() {
-    current_branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
-    parent_branch_with_remote=$(git rev-parse --abbrev-ref --symbolic-full-name @{u})
-    parent_branch="${parent_branch_with_remote##*/}"
-    github_username=$(git config user.name)
-    remote_url=$(git ls-remote --get-url)
-    base_url=$(dirname "$remote_url")
-    repo_name=$(basename -s .git "$remote_url")
-    full_url="$base_url/$repo_name"
-    zprURL="$full_url/compare/$parent_branch...$github_username:$current_branch?expand=1"
-    open $zprURL
-}
-
 # POWERLINE
 
 POWERLEVEL9K_INSTANT_PROMPT=off
@@ -170,7 +139,5 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_job
 
 ZLE_RPROMPT_INDENT=0
 
-[alias]
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# ALIASES
+source $HOME/dotfiles/zsh/aliases

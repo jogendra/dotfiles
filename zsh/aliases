@@ -1,0 +1,9 @@
+ alias updf='function _upd() { git checkout $1; git fetch upstream; git reset --hard upstream/$1; git push -f origin $1 }; _upd'
+
+ alias gpl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges --date=iso"
+
+ alias hs="history | grep"
+ 
+ alias zpr='git pr'
+
+ alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
