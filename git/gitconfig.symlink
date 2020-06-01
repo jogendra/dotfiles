@@ -15,6 +15,7 @@
 	syncu = !sh ~/dotfiles/git/sync_with_upstream.sh
 	diffall = !sh ~/dotfiles/git/git_unpushed.sh
 	plog = "log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges --date=iso"
+	lazy = !lazygit
 
 [color]
     diff = auto
