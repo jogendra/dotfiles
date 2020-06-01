@@ -3,3 +3,18 @@
  alias zpr='git pr'
 
  alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
+
+ # Moving around
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias .2='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+# Neovim
+alias vi='nvim'
+alias vim='nvim'
+alias vir='nvim -R'

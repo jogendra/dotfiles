@@ -10,6 +10,7 @@
 # Prints an advanced numbered, recursive and colored directory treeview.
 #
 # @param $@ the directory path(s)
+
 treed() {
   if command -v tree > /dev/null 2>&1; then
     tree -aC -I ".git|node_modules|bower_components" --dirsfirst "$@" | less -FRNX
