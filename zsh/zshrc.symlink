@@ -1,9 +1,6 @@
 # Load: Configurations
 source $HOME/dotfiles/zsh/config
 
-# If you don’t like the user@host part of the prompt, you can make this disappear by adding
-DEFAULT_USER=Jogendra
-
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
