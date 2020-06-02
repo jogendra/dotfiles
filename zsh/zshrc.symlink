@@ -1,12 +1,8 @@
 # Load: Configurations
 source $HOME/dotfiles/zsh/config
 
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git z zsh-autosuggestions)
+# Load: Plugins
+source $HOME/dotfiles/zsh/plugins
 
 # Load: OH-MY-ZSH
 source $ZSH/oh-my-zsh.sh
