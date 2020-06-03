@@ -33,3 +33,7 @@ script/bootstrap
 This will symlink the appropriate files in `.dotfiles` to your home directory. Everything is configured and tweaked within `~/.dotfiles`.
 
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`, which sets up a few paths that'll be different on your particular machine.
+
+## Pimp my Terminnal
+I will soon be writing detailed blog post on how my iTerm is customized.
+<img width="1044" alt="Screenshot 2020-06-02 at 11 43 06 PM" src="https://user-images.githubusercontent.com/20956124/83674781-b5917200-a5f5-11ea-84e7-02acf5552c70.png">
