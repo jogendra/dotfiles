@@ -1,4 +1,3 @@
-# This is Git's per-user configuration file.
 [user]
 	name = jogendrafx
 	email = jogendra.kumar@zomato.com
@@ -16,6 +15,7 @@
 	diffall = !sh ~/dotfiles/git/git_unpushed.sh
 	plog = "log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges --date=iso"
 	lazy = !lazygit
+	contributors = shortlog --summary --numbered
 
 [color]
     diff = auto
