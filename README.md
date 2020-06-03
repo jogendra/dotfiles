@@ -2,7 +2,7 @@
 
 Config files for zsh, bash, git, completions etc. to set up a system the way I like it. ~/.jogendra
 
-<img width="937" alt="Screenshot 2020-06-03 at 11 43 33 PM" src="https://user-images.githubusercontent.com/20956124/83674658-ab6f7380-a5f5-11ea-92f6-5ae39d78836b.png">
+<img width="937" alt="Jogendra's Iterm2" src="https://user-images.githubusercontent.com/20956124/83674658-ab6f7380-a5f5-11ea-92f6-5ae39d78836b.png">
 
 **NOTE**: The dotfiles is configured for MacOS machine. Most of the things expected to work on all machines running unix based operating systems.
 
@@ -35,5 +35,9 @@ This will symlink the appropriate files in `.dotfiles` to your home directory. E
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`, which sets up a few paths that'll be different on your particular machine.
 
 ## Pimp my Terminnal
+
 I will soon be writing detailed blog post on how my iTerm is customized.
-<img width="1044" alt="Screenshot 2020-06-02 at 11 43 06 PM" src="https://user-images.githubusercontent.com/20956124/83674781-b5917200-a5f5-11ea-84e7-02acf5552c70.png">
+
+<img width="1044" alt="gitlazy" src="https://user-images.githubusercontent.com/20956124/83674781-b5917200-a5f5-11ea-84e7-02acf5552c70.png">
+
+<img width="937" alt="gotop" src="https://user-images.githubusercontent.com/20956124/83691158-6a845880-a60f-11ea-90c5-38362de92b3f.png">
