@@ -4,6 +4,8 @@
 
  alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
 
+ alias soundon="osascript ~/dotfiles/AppleScripts/sound_on.scpt"
+
  # Moving around
 alias ..='cd ..'
 alias ...='cd ../../'
