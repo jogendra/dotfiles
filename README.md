@@ -41,3 +41,6 @@ I will soon be writing detailed blog post on how my iTerm is customized.
 <img width="1044" alt="gitlazy" src="https://user-images.githubusercontent.com/20956124/83674781-b5917200-a5f5-11ea-84e7-02acf5552c70.png">
 
 <img width="937" alt="gotop" src="https://user-images.githubusercontent.com/20956124/83691158-6a845880-a60f-11ea-90c5-38362de92b3f.png">
+
+## License
+This repository is under MIT License. Check [LICENSE](LICENSE) file for more information.
