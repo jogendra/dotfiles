@@ -6,6 +6,12 @@
 
  alias soundon="osascript ~/dotfiles/AppleScripts/sound_on.scpt"
 
+ alias togglemute="osascript ~/dotfiles/AppleScripts/toggle_mute.scpt"
+
+ alias mute="osascript -e 'set volume with output muted'"
+
+ alias unmute="osascript -e 'set volume without output muted'"
+
  # Moving around
 alias ..='cd ..'
 alias ...='cd ../../'
