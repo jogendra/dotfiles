@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 ## Xcode
 # Backup Xcode defaults
 defaults read com.apple.dt.Xcode > ~/Desktop/XcodeDefaults.plist
