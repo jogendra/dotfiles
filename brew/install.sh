@@ -14,14 +14,13 @@ else
   echo "Homebrew is already installed...";
 fi
 
-# Install the brews I use
+# Install the essential brews
 brew install carthage
 brew install cocoapods
 brew install gettext
 brew install gh
 brew install git
 brew install node
-brew install icu4c
 brew install lazygit
 brew install lsd
 brew install tree
@@ -29,6 +28,13 @@ brew install yarn
 brew install zsh
 brew install zsh-completions
 brew install neovim
+brew install pass
+brew install vim
+
+# Install essential casks
+brew cask install iterm2
+brew cask install charles
+brew cask install firefox
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;
