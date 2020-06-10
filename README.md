@@ -6,9 +6,11 @@ Config files for zsh, bash, git, completions etc. to set up a system the way I l
 
 **NOTE**: The dotfiles is configured for MacOS machine. Most of the things expected to work on all machines running unix based operating systems.
 
+<img width="25%" align="right" alt="" src="https://user-images.githubusercontent.com/20956124/84314457-b55d1d80-ab85-11ea-9bed-6009dcb8be18.png">
+
 ## Components
 
-I went through many dotfiles before deciding structure of this dotfiles, I found [holman](https://twitter.com/holman) way the best, Thanks to [holman dotfiles](https://github.com/holman/dotfiles).
+I went through many dotfiles before deciding structure of this dotfiles, I found [holman](https://twitter.com/holman) way the best, Thanks to [holman dotfiles](https://github.com/holman/dotfiles). What he used is called _Topical organization_ which is organizing the different parts of dotfiles in directories, each entitled to a specific subject. By topical organization, all AppleScripts go inside the `AppleScript/` directory, git settings are in a `git/` directory, and so on. Everything's built around topic areas. If you're adding a new area to your forked dotfiles — say, "vscode" — you can simply add a vscode directory and put files in there.
 
 There's a few special files in the hierarchy:
 
