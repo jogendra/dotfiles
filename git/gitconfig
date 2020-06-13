@@ -18,10 +18,10 @@
 	contributors = shortlog --summary --numbered
 
 [color]
-    diff = auto
-    status = auto
-    branch = auto
-    ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
 
 [commit]
 	gpgsign = false
