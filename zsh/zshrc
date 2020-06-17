@@ -1,0 +1,14 @@
+# Load: Configurations
+source $HOME/.dotfiles/zsh/config
+
+# Load: Plugins
+source $HOME/.dotfiles/zsh/plugins
+
+# Load: OH-MY-ZSH
+source $ZSH/oh-my-zsh.sh
+
+# Load: POWERLINE
+source $HOME/.dotfiles/zsh/powerlevel9k
+
+# Load: ALIASES
+source $HOME/.dotfiles/zsh/aliases
