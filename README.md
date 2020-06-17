@@ -27,9 +27,9 @@ There's a few special files in the hierarchy:
 Run:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/jogendra/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-script/bootstrap
+installers/bootstrap
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory. Everything is configured and tweaked within `~/.dotfiles`.
