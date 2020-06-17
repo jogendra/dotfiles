@@ -9,11 +9,11 @@
 	parent = rev-parse --abbrev-ref --symbolic-full-name @{u}
 	last = log -1 HEAD
 	unstage = reset HEAD --
-	pr = !sh ~/dotfiles/git/pull_request.sh
+	pr = !sh ~/.dotfiles/git/pull_request.sh
 	remotes = remote -v
-	syncu = !sh ~/dotfiles/git/sync_with_upstream.sh
-	diffall = !sh ~/dotfiles/git/git_unpushed.sh
-	plog = !sh ~/dotfiles/git/plog.sh
+	syncu = !sh ~/.dotfiles/git/sync_with_upstream.sh
+	diffall = !sh ~/.dotfiles/git/git_unpushed.sh
+	plog = !sh ~/.dotfiles/git/plog.sh
 	lazy = !lazygit
 	contributors = shortlog --summary --numbered
 

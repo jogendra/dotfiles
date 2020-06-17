@@ -17,7 +17,6 @@ fi
 # Install the essential brews
 brew install carthage
 brew install cocoapods
-brew install gettext
 brew install gh
 brew install git
 brew install node

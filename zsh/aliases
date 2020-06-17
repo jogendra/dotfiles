@@ -2,11 +2,11 @@
  
  alias zpr='git pr'
 
- alias workinit="osascript ~/dotfiles/AppleScripts/work_init.scpt"
+ alias workinit="osascript ~/.dotfiles/AppleScripts/work_init.scpt"
 
- alias soundon="osascript ~/dotfiles/AppleScripts/sound_on.scpt"
+ alias soundon="osascript ~/.dotfiles/AppleScripts/sound_on.scpt"
 
- alias togglemute="osascript ~/dotfiles/AppleScripts/toggle_mute.scpt"
+ alias togglemute="osascript ~/.dotfiles/AppleScripts/toggle_mute.scpt"
 
  alias mute="osascript -e 'set volume with output muted'"
 
