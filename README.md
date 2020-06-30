@@ -2,6 +2,8 @@
 
 Config files for zsh, bash, git, completions etc. to set up a system the way I like it. ~/.jogendra
 
+[https://jogendra.github.io/i-do-dotfiles](https://jogendra.github.io/i-do-dotfiles)
+
 <img width="937" alt="Jogendra's Iterm2" src="https://user-images.githubusercontent.com/20956124/83674658-ab6f7380-a5f5-11ea-92f6-5ae39d78836b.png">
 
 **NOTE**: The dotfiles is configured for MacOS machine. Most of the things expected to work on all machines running unix based operating systems.
