@@ -12,3 +12,6 @@ source $HOME/.dotfiles/zsh/powerlevel9k
 
 # Load: ALIASES
 source $HOME/.dotfiles/zsh/aliases
+
+# Load: Go Enviroment Variables
+source $HOME/.dotfiles/zsh/GoEnv
