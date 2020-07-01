@@ -12,6 +12,8 @@
 
  alias unmute="osascript -e 'set volume without output muted'"
 
+ alias cobra="~/go/bin/cobra"
+
  # Moving around
 alias ..='cd ..'
 alias ...='cd ../../'
