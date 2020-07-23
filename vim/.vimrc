@@ -1,5 +1,6 @@
 filetype plugin indent on
 set autowrite
+set mouse=a
 let g:go_highlight_types = 1
 let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
@@ -8,7 +9,9 @@ let g:go_highlight_extra_types = 1
 let g:go_highlight_operators = 1
 let g:go_fmt_autosave = 1
 let g:go_fmt_command = "goimports"
-
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=5\x7"
+let &t_EI = "\<Esc>]50;CursorShape=6\x7"
 
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
