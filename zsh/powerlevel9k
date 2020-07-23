@@ -37,7 +37,7 @@ POWERLEVEL9K_CUSTOM_IP_FOREGROUND=black
 POWERLEVEL9K_CUSTOM_IP_ICON=''
 POWERLEVEL9K_OS_ICON_BACKGROUND=red
 POWERLEVEL9K_OS_ICON_FOREGROUND=white
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_ip_icon custom_ip custom_os_icon ssh root_indicator dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_os_icon ssh root_indicator dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
 
 ZLE_RPROMPT_INDENT=0
