@@ -26,6 +26,7 @@ alias .5='cd ../../../../..'
 # alias vi='nvim'
 # alias vim='nvim'
 # alias vir='nvim -R'
+alias vi='vim'
 
 # LSD
 alias ls='lsd'

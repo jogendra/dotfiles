@@ -17,6 +17,7 @@ source $HOME/.dotfiles/zsh/aliases
 export PATH=${PATH}:$HOME/go/bin
 
 # Install: VSCode's `code` command in PATH
-cp $HOME/.dotfiles/zsh/vscode /usr/local/bin/code
-export PATH=${PATH}:/usr/local/bin/code
-chmod +x /usr/local/bin/code
+# cp $HOME/.dotfiles/zsh/vscode /usr/local/bin/code
+# export PATH=${PATH}:/usr/local/bin/code
+# chmod +x /usr/local/bin/code
+

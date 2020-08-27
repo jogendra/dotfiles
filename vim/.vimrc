@@ -4,6 +4,13 @@ set autowrite
 set mouse=a
 
 :set number
+:set noswapfile
+
+" Brackets Highlighting Colors
+hi MatchParen cterm=none ctermbg=black ctermfg=white
+
+" Errors/BadSpellings Higlighing Colors
+:highlight clear SpellBad
 
 " CUSOR SETUP
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
@@ -37,6 +44,9 @@ let g:go_fmt_command = "goimports"
 " Status line types/signatures
 let g:go_auto_type_info = 1
 
+" Go Add Tags
+let g:go_addtags_transform = 'camelcase'
+noremap gat :GoAddTags<cr>
 
 " NERDTREE CONFIGS
 map <C-z> :NERDTreeToggle<CR>
@@ -49,8 +59,12 @@ let NERDTreeShowHidden=1
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'preservim/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'habamax/vim-polar'
 call plug#end()
 
+set termguicolors
+colorscheme polar
 
 " Run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
