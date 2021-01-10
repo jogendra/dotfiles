@@ -8,7 +8,10 @@ source $HOME/.dotfiles/zsh/plugins
 source $ZSH/oh-my-zsh.sh
 
 # Load: POWERLINE
-source $HOME/.dotfiles/zsh/powerlevel9k
+#source $HOME/.dotfiles/zsh/powerlevel9k
+
+# Load: Spaceship Configurations
+source $HOME/.dotfiles/zsh/spaceship
 
 # Load: ALIASES
 source $HOME/.dotfiles/zsh/aliases
@@ -20,4 +23,5 @@ export PATH=${PATH}:$HOME/go/bin
 # cp $HOME/.dotfiles/zsh/vscode /usr/local/bin/code
 # export PATH=${PATH}:/usr/local/bin/code
 # chmod +x /usr/local/bin/code
+
 
