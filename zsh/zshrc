@@ -24,4 +24,8 @@ export PATH=${PATH}:$HOME/go/bin
 # export PATH=${PATH}:/usr/local/bin/code
 # chmod +x /usr/local/bin/code
 
+# Java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home"
+export PATH=$PATH:$JAVA_HOME/bin
+
 
