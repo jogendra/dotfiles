@@ -12,7 +12,7 @@ hi MatchParen cterm=none ctermbg=black ctermfg=white
 " Errors/BadSpellings Higlighing Colors
 :highlight clear SpellBad
 
-" CUSOR SETUP
+" CURSOR SETUP
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=5\x7"
 let &t_EI = "\<Esc>]50;CursorShape=6\x7"
