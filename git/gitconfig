@@ -17,14 +17,13 @@
 	lazy = !lazygit
 	contributors = shortlog --summary --numbered
 
-[color]
-	diff = auto
-	status = auto
-	branch = auto
-	ui = true
-
+[gpg]
+	program = gpg2
+	format = ssh
 [commit]
-	gpgsign = false
+	gpgsign = true
+[tag]
+	gpgSign = true
 
 [core]
 	editor = vim
